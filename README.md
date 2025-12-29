@@ -10,11 +10,11 @@ A robust backend solution developed with **ASP.NET Core (.Net7)**, designed for 
 * **JWT Authentication**: Securing endpoints via JSON Web Tokens.
 
 ### 📝 Task Management (CRUD)
-* Create, edit, and track tasks with specific assignments.
+* Create, Visualize, edit, delete and assign tasks with the possibility to upload or to download documents.
 * **Email Notifications (SMTP)**: Automated emails on task assignment.
 
 ### 💬 Real-Time Communication (SignalR)
-* **Private Chat**: Instant messaging between Admin and Employees via WebSockets.
+* **Private Chat**: Instant messaging between Admin and Employees via SignlR(WebSockets).
 * **Message History**: Chat persistence in SQL Server database.
 * **Presence Status**: Real-time Online/Offline indicator for each user.
 
@@ -71,11 +71,11 @@ Une solution backend robuste développée avec **ASP.NET Core (.Net7)**, conçue
 * **JWT Authentication** : Sécurisation des endpoints via JSON Web Tokens.
 
 ### 📝 Gestion des Tâches (CRUD)
-* Création, modification et suivi des tâches avec assignation spécifique.
+* Créer, visualiser, modifier, supprimer et attribuer des tâches avec la possibilité de télécharger ou de téléverser des documents..
 * **Notifications Email (SMTP)** : Envoi automatique d'emails lors de l'assignation de tâches.
 
 ### 💬 Communication Temps Réel (SignalR)
-* **Chat Privé** : Messagerie instantanée entre Admin et Employés via WebSockets.
+* **Chat Privé** : Messagerie instantanée entre Admin et Employés via SignlR(WebSockets).
 * **Historique des messages** : Persistance des conversations en base de données SQL Server.
 * **Statut de présence** : Indicateur Online/Offline en temps réel pour chaque utilisateur.
 
