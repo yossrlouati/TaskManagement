@@ -1,0 +1,17 @@
+# Ignorer les dossiers de compilation et d'IDE
+**/bin/
+**/obj/
+.vs/
+
+# Ignorer le dossier de tests pour la construction de l'API
+SimpleAuthApi.Tests/
+
+# Ignorer le dossier qui pose problème de permissions
+AppData/
+ElevatedDiagnostics/
+
+# Exclure les packages et dépendances (très lourds)
+**/node_modules/
+**/packages/
+# Exclure les fichiers de configuration de développement sensibles
+**/appsettings*.Development.json

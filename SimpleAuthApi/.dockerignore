@@ -1,0 +1,8 @@
+# Fichier: .dockerignore
+**/.git
+**/.gitignore
+**/.vscode
+**/bin/
+**/obj/
+
+**/appsettings*.Development.json

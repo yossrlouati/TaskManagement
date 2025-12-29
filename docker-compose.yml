@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  # 1. Le service de la Base de Données (SQL Server)
+  sqlserver_db:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sqlserver_simpleauth
+    environment:
+      SA_PASSWORD: "YourStrongPassword123!" 
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+
+  # 2. Le service de votre API (.NET)
+  simpleauthapi:
+    build:
+      context: .
+      dockerfile: SimpleAuthApi/Dockerfile
+    container_name: simpleauth_api
+    ports:
+      - "8080:8080"
+    depends_on:
+      - sqlserver_db
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+
+volumes:
+  sqlserver_data:
