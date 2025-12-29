@@ -2,7 +2,7 @@
 
 [Go to French Version / Aller à la version française](#version-française)
 
-A robust backend solution developed with **ASP.NET Core 7**, designed for enterprise task management with seamless communication between administrators and employees.
+A robust backend solution developed with **ASP.NET Core (.Net7)**, designed for enterprise task management with seamless communication between administrators and employees.
 
 ## 📌 Key Features
 ### 🔐 Auth & Security
@@ -63,7 +63,7 @@ Although the project currently uses SQL Server for all data, the architecture is
 
 # 🚀 TaskManagement API (Version Française)
 
-Une solution backend robuste développée avec **ASP.NET Core 7**, conçue pour la gestion de tâches en entreprise avec une communication fluide entre administrateurs et employés.
+Une solution backend robuste développée avec **ASP.NET Core (.Net7)**, conçue pour la gestion de tâches en entreprise avec une communication fluide entre administrateurs et employés.
 
 ## 📌 Fonctionnalités Clés
 ### 🔐 Authentification & Sécurité
